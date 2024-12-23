@@ -62,7 +62,7 @@ h1 {
     /* debug */
     /* width: 20%;
     height: 400px; */
-    /* border: 1px solid white; */
+    /*border: 1px solid white; */ 
 }
 
 
@@ -73,7 +73,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-  }
+    perspective: 1000px;
+}
 
 /* elementi griglia */
 .grid-item {
@@ -81,14 +82,13 @@ h1 {
     justify-content: center;
     align-items: center;
     border-radius: 99999px;
-    transition: all 0.3s ease;
     font-size: 1.5vw;
     height: 3em;
     width: 3em;
     background-color: white;
-
-    /* debug */
     box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.4), 6px 6px 8px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .text_numbers {
