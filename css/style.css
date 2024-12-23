@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #040404;
+    font-family: "Gochi Hand", serif;
+}
+
+.container {    
+    background-color: #17a494;
+    border: 2px solid red;
+    width: 90%;
+    margin: 50px 0;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+h1 {
+    font-size: 5vw;
+    color: white;
+}
+
+
+/* MAIN */
+
+/* regole blocchi */
+#container_main {
+    display: flex;
+    border: 2px solid blue;
+    margin-left: 9vw;
+    width:80%;
+
+    /* debug */
+    /* height: 850px; */
+}
+
+#container_numbers {
+    border: 1px solid orange;
+    width: 80%;
+
+    /* debug */
+    /* height: 100%; */
+}
+
+#risultati {
+    border: 1px solid white;
+
+    /* debug */
+    width: 20%;
+    height: 400px;
+}
+
+/* regole container_numbers */
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    border-radius: 99999px;
+    height: 3.5em;
+    width: 3.5em;
+
+    /* debug */
+    background-color: yellow;
+   
+}
