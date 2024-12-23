@@ -14,7 +14,6 @@ body {
 
 .container {    
     background-color: #17a494;
-    border: 2px solid red;
     width: 90%;
     margin: 50px 0;
 }
@@ -28,58 +27,121 @@ header {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 8vw;
     color: white;
 }
 
 
 /* MAIN */
 
-/* regole blocchi */
+/* REGOLE ==> containers */
 #container_main {
     display: flex;
-    border: 2px solid blue;
     margin-left: 9vw;
     width:80%;
 
     /* debug */
     /* height: 850px; */
+    /* border: 2px solid blue; */
 }
 
 #container_numbers {
-    border: 1px solid orange;
     width: 80%;
 
     /* debug */
     /* height: 100%; */
+    /* border: 1px solid orange; */
 }
 
 #risultati {
-    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1vw;
 
     /* debug */
-    width: 20%;
-    height: 400px;
+    /* width: 20%;
+    height: 400px; */
+    /* border: 1px solid white; */
 }
 
-/* regole container_numbers */
 
+/* REGOLE ==> container_numbers */
+
+/* contenitore griglia */
 .grid-container {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
   }
 
+/* elementi griglia */
 .grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5vw;
     border-radius: 99999px;
-    height: 3.5em;
-    width: 3.5em;
+    transition: all 0.3s ease;
+    font-size: 1.5vw;
+    height: 3em;
+    width: 3em;
+    background-color: white;
 
     /* debug */
-    background-color: yellow;
-   
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.4), 6px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text_numbers {
+    font-size: 2em;
+}
+
+
+
+/* REGOLE ==> risultati */
+
+h2 {
+    padding-top: 30px;
+    font-size: 1.2vw;
+}
+
+/* casella numero estratto */
+#numero_estratto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 4vw;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 20px;
+}
+
+#border {
+   border: 1px solid white;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+/* bottoni */
+
+#estrai {
+    background-color: #f7a001;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 0 0 0 2px white;
+    padding: 10px 15px;
+    font-size: 1vw;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#termina {
+    background-color: #874465;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1vw;
+    cursor: pointer;
 }
