@@ -21,10 +21,10 @@ LOGICA JS:
 -Trovare e colorare il numero corrispondente: cerca il numero nella griglia e coloralo di rosso.
 
 <!-- output -->
--Se escono queste combinazioni:
+-Dopo ogni estrazione, bisogna controllare se una delle combinazioni vincenti si attua:
 Ambo: coprire due numeri sulla stessa riga.
 Terno: coprire tre numeri sulla stessa riga.
 Quaterna: coprire quattro numeri sulla stessa riga.
 Cinquina: coprire cinque numeri sulla stessa riga.
 Tombola: coprire tutti i numeri sulla cartella.
-fai apparire dei messaggi di vittoria (es se tre numeri sulla stessa riga fai apparire "Hai fatto Terno" e così via).
+Se si fai apparire dei messaggi di vittoria (es se tre numeri sulla stessa riga fai apparire "Hai fatto Terno" e così via).
