@@ -1,4 +1,4 @@
-// Otteniamo gli elementi dal DOM
+// Otteniamo gli elementi dal DOM (Document Object Model), posso interagire con la struttura della pagina web per modificarla dinamicamente.
 const estraiButton = document.getElementById('estrai');
 const numeroEstratto = document.getElementById('numero_estratto');
 const gridItems = document.querySelectorAll('.grid-item');
@@ -96,6 +96,7 @@ function mostraMessaggio(messaggio) {
         messaggioPrecedente.remove();
     }
 
+    // regole del messaggio
     const messaggioDiv = document.createElement('h2');
     messaggioDiv.textContent = messaggio;
     messaggioDiv.style.color = 'white';

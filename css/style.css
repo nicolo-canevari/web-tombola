@@ -59,9 +59,9 @@ h1 {
     align-items: center;
     margin-left: 3vw;
     width: 20%;
-    /* height: 800px; */
     
     /* debug */
+    /* height: 700px;  */
     /*border: 1px solid white; */ 
 }
 
@@ -100,8 +100,9 @@ h1 {
 /* REGOLE ==> risultati */
 
 h2 {
-    padding-top: 30px;
     font-size: 1.2vw;  
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /* casella numero estratto */
